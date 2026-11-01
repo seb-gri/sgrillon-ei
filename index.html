@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sébastien Grillon</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://sgrillon.fr/fr/">
+<link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/">
+<link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/">
+<link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/">
+<script>
+  /* Redirige vers la langue mémorisée (sélecteur FR / EN), français par défaut. */
+  (function () {
+    var lang = "fr";
+    try { if (localStorage.getItem("sgrillon-lang") === "en") { lang = "en"; } } catch (e) {}
+    location.replace("/" + lang + "/");
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/fr/"></noscript>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<main class="container">
+  <h1>Sébastien Grillon</h1>
+  <p><a href="/fr/" hreflang="fr" lang="fr">Français</a> · <a href="/en/" hreflang="en" lang="en">English</a></p>
+</main>
+</body>
+</html>

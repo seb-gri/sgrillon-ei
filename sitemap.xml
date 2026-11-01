@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sgrillon.fr/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/formation.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/formation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/training.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/formation.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/training.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/formation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/training.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/formation.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/conseil.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/conseil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/consulting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/conseil.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/consulting.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/conseil.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/consulting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/conseil.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/projets.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/projets.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/projects.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/projets.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/projets.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/a-propos.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/a-propos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/a-propos.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/contact.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/contact.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/fr/mentions-legales.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/legal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/mentions-legales.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://sgrillon.fr/en/legal.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/mentions-legales.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/legal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/mentions-legales.html"/>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+</urlset>
