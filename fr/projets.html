@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projets | Sébastien Grillon</title>
-<meta name="description" content="Projets en production : DFCO Analytics, plateforme d'analyse des entraînements d'un club professionnel ; fbtag, analyse vidéo de football ; application de suivi de patrimoine pour les familles.">
+<meta name="description" content="Projets : DFCO Analytics, plateforme d'analyse des entraînements d'un club professionnel ; fbtag, annotation vidéo de football ; séquençage de match par deep learning ; suivi de patrimoine pour les familles.">
 <link rel="canonical" href="https://sgrillon.fr/fr/projets.html">
 <link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/projets.html">
 <link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/projects.html">
 <link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/projets.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Projets | Sébastien Grillon">
-<meta property="og:description" content="Projets en production : DFCO Analytics, plateforme d'analyse des entraînements d'un club professionnel ; fbtag, analyse vidéo de football ; application de suivi de patrimoine pour les familles.">
+<meta property="og:description" content="Projets : DFCO Analytics, plateforme d'analyse des entraînements d'un club professionnel ; fbtag, annotation vidéo de football ; séquençage de match par deep learning ; suivi de patrimoine pour les familles.">
 <meta property="og:url" content="https://sgrillon.fr/fr/projets.html">
 <meta property="og:locale" content="fr_FR">
 <meta name="theme-color" content="#14213d">
@@ -31,7 +31,7 @@
 </header>
 <main id="main" class="container">
 <h1>Projets</h1>
-<p class="lead">Trois applications que je conçois, développe et exploite. Deux sont en production, la troisième arrive en novembre 2026.</p>
+<p class="lead">Quatre projets que je conçois, développe et exploite. Un est en production chez un club professionnel, les autres sont en développement ou en préparation.</p>
 
 <article id="dfco-analytics" class="project">
   <p class="badge badge-live">En production depuis début 2026</p>
@@ -52,13 +52,13 @@
 </article>
 
 <article id="fbtag" class="project">
-  <p class="badge badge-live">En ligne</p>
+  <p class="badge badge-soon">En développement</p>
   <h2>fbtag</h2>
-  <p>Outil en ligne de découpage et d'analyse vidéo de football, hébergé sur AWS.</p>
-  <p><mark class="todo">[À compléter : 2 ou 3 phrases : public visé, ce que fait l'outil, ce qui le distingue]</mark></p>
+  <p>Outil en ligne de découpage et d'annotation vidéo de matchs de football, hébergé sur AWS. Il permet de séquencer un match manuellement et d'en taguer les phases.</p>
+  <p>Dans un premier temps, fbtag sert à constituer le jeu d'entraînement du projet de séquençage par deep learning décrit ci-dessous. Une version destinée au grand public suivra.</p>
   <dl class="facts">
     <div><dt>Hébergement</dt><dd>AWS</dd></div>
-    <div><dt>Accès</dt><dd><mark class="todo">[À compléter : URL publique de fbtag]</mark></dd></div>
+    <div><dt>État</dt><dd>En développement, usage interne</dd></div>
   </dl>
 </article>
 
@@ -73,10 +73,16 @@
   </dl>
 </article>
 
-<section aria-labelledby="dl">
-  <h2 id="dl">Deep learning</h2>
-  <p><mark class="todo">[À compléter : préciser lequel des trois projets intègre un modèle de deep learning, pour quel usage et avec quelle technologie]</mark></p>
-</section>
+<article id="sequencage" class="project">
+  <p class="badge badge-soon">En préparation</p>
+  <h2>Séquençage de match par deep learning</h2>
+  <p>Projet de recherche et développement : prédire le séquençage d'un match de football à partir des données d'événements et de tracking, grâce à un modèle de deep learning. Ce séquençage ouvre un angle d'analyse de match et d'équipe qui n'existe pas aujourd'hui.</p>
+  <p>Le modèle est entraîné sur des matchs séquencés manuellement avec fbtag. Une plateforme d'analyse mettra ensuite les résultats à disposition des clubs, par abonnement.</p>
+  <dl class="facts">
+    <div><dt>Technologies</dt><dd>Deep learning sur séquences, Python, Amazon SageMaker pour l'entraînement, inférence en différé sur AWS</dd></div>
+    <div><dt>Calendrier</dt><dd>Préparation des données début 2027, expérimentations à partir de mars 2027, première version de la plateforme visée fin 2027</dd></div>
+  </dl>
+</article>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">

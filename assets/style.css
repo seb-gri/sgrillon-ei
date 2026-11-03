@@ -151,6 +151,7 @@ mark.todo { background: var(--todo-bg); color: var(--todo-text); padding: 0.05em
   h1 { font-size: 2rem; }
   .hero h1 { font-size: 2.5rem; }
   .cards { grid-template-columns: repeat(3, 1fr); }
+  .cards-2 { grid-template-columns: repeat(2, 1fr); }
   .facts > div { grid-template-columns: 11rem 1fr; gap: 1rem; }
 }
 @media (min-width: 56em) {

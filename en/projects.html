@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects | Sébastien Grillon</title>
-<meta name="description" content="Projects in production: DFCO Analytics, a training analytics platform for a professional football club; fbtag, football video analysis; a family wealth tracking application.">
+<meta name="description" content="Projects: DFCO Analytics, a training analytics platform for a professional football club; fbtag, football video annotation; match sequencing with deep learning; a family wealth tracking application.">
 <link rel="canonical" href="https://sgrillon.fr/en/projects.html">
 <link rel="alternate" hreflang="fr" href="https://sgrillon.fr/fr/projets.html">
 <link rel="alternate" hreflang="en" href="https://sgrillon.fr/en/projects.html">
 <link rel="alternate" hreflang="x-default" href="https://sgrillon.fr/fr/projets.html">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Projects | Sébastien Grillon">
-<meta property="og:description" content="Projects in production: DFCO Analytics, a training analytics platform for a professional football club; fbtag, football video analysis; a family wealth tracking application.">
+<meta property="og:description" content="Projects: DFCO Analytics, a training analytics platform for a professional football club; fbtag, football video annotation; match sequencing with deep learning; a family wealth tracking application.">
 <meta property="og:url" content="https://sgrillon.fr/en/projects.html">
 <meta property="og:locale" content="en_GB">
 <meta name="theme-color" content="#14213d">
@@ -31,7 +31,7 @@
 </header>
 <main id="main" class="container">
 <h1>Projects</h1>
-<p class="lead">Three applications I design, build and operate. Two are in production; the third launches in November 2026.</p>
+<p class="lead">Four projects I design, build and operate. One is in production at a professional club; the others are in development or in preparation.</p>
 
 <article id="dfco-analytics" class="project">
   <p class="badge badge-live">In production since early 2026</p>
@@ -52,13 +52,13 @@
 </article>
 
 <article id="fbtag" class="project">
-  <p class="badge badge-live">Live</p>
+  <p class="badge badge-soon">In development</p>
   <h2>fbtag</h2>
-  <p>Online football video clipping and analysis tool, hosted on AWS.</p>
-  <p><mark class="todo">[To complete: 2 or 3 sentences: target users, what the tool does, what sets it apart]</mark></p>
+  <p>Online tool for clipping and annotating football match video, hosted on AWS. It lets a user sequence a match manually and tag its phases.</p>
+  <p>Initially, fbtag is used to build the training set for the deep learning match sequencing project described below. A version for the general public will follow.</p>
   <dl class="facts">
     <div><dt>Hosting</dt><dd>AWS</dd></div>
-    <div><dt>Access</dt><dd><mark class="todo">[To complete: public URL of fbtag]</mark></dd></div>
+    <div><dt>Status</dt><dd>In development, internal use</dd></div>
   </dl>
 </article>
 
@@ -73,10 +73,16 @@
   </dl>
 </article>
 
-<section aria-labelledby="dl">
-  <h2 id="dl">Deep learning</h2>
-  <p><mark class="todo">[To complete: state which of the three projects includes a deep learning model, for what purpose and with which technology]</mark></p>
-</section>
+<article id="sequencing" class="project">
+  <p class="badge badge-soon">In preparation</p>
+  <h2>Match sequencing with deep learning</h2>
+  <p>Research and development project: predicting the sequencing of a football match from event and tracking data with a deep learning model. This sequencing opens an angle of match and team analysis that does not exist today.</p>
+  <p>The model is trained on matches sequenced manually with fbtag. An analysis platform will then make the results available to clubs on a subscription basis.</p>
+  <dl class="facts">
+    <div><dt>Stack</dt><dd>Sequence deep learning, Python, Amazon SageMaker for training, batch inference on AWS</dd></div>
+    <div><dt>Timeline</dt><dd>Data preparation in early 2027, experiments from March 2027, first version of the platform targeted for late 2027</dd></div>
+  </dl>
+</article>
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
